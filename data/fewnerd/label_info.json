@@ -1,0 +1,202 @@
+{
+    "entity": {
+        "art-broadcastprogram": {
+            "id": 1
+        },
+        "art-film": {
+            "id": 2
+        },
+        "art-music": {
+            "id": 3
+        },
+        "art-other": {
+            "id": 4
+        },
+        "art-painting": {
+            "id": 5
+        },
+        "art-writtenart": {
+            "id": 6
+        },
+        "building-airport": {
+            "id": 7
+        },
+        "building-hospital": {
+            "id": 8
+        },
+        "building-hotel": {
+            "id": 9
+        },
+        "building-library": {
+            "id": 10
+        },
+        "building-other": {
+            "id": 11
+        },
+        "building-restaurant": {
+            "id": 12
+        },
+        "building-sportsfacility": {
+            "id": 13
+        },
+        "building-theater": {
+            "id": 14
+        },
+        "event-attack/battle/war/militaryconflict": {
+            "id": 15
+        },
+        "event-disaster": {
+            "id": 16
+        },
+        "event-election": {
+            "id": 17
+        },
+        "event-other": {
+            "id": 18
+        },
+        "event-protest": {
+            "id": 19
+        },
+        "event-sportsevent": {
+            "id": 20
+        },
+        "location-GPE": {
+            "id": 21
+        },
+        "location-bodiesofwater": {
+            "id": 22
+        },
+        "location-island": {
+            "id": 23
+        },
+        "location-mountain": {
+            "id": 24
+        },
+        "location-other": {
+            "id": 25
+        },
+        "location-park": {
+            "id": 26
+        },
+        "location-road/railway/highway/transit": {
+            "id": 27
+        },
+        "organization-company": {
+            "id": 28
+        },
+        "organization-education": {
+            "id": 29
+        },
+        "organization-government/governmentagency": {
+            "id": 30
+        },
+        "organization-media/newspaper": {
+            "id": 31
+        },
+        "organization-other": {
+            "id": 32
+        },
+        "organization-politicalparty": {
+            "id": 33
+        },
+        "organization-religion": {
+            "id": 34
+        },
+        "organization-showorganization": {
+            "id": 35
+        },
+        "organization-sportsleague": {
+            "id": 36
+        },
+        "organization-sportsteam": {
+            "id": 37
+        },
+        "other-astronomything": {
+            "id": 38
+        },
+        "other-award": {
+            "id": 39
+        },
+        "other-biologything": {
+            "id": 40
+        },
+        "other-chemicalthing": {
+            "id": 41
+        },
+        "other-currency": {
+            "id": 42
+        },
+        "other-disease": {
+            "id": 43
+        },
+        "other-educationaldegree": {
+            "id": 44
+        },
+        "other-god": {
+            "id": 45
+        },
+        "other-language": {
+            "id": 46
+        },
+        "other-law": {
+            "id": 47
+        },
+        "other-livingthing": {
+            "id": 48
+        },
+        "other-medical": {
+            "id": 49
+        },
+        "person-actor": {
+            "id": 50
+        },
+        "person-artist/author": {
+            "id": 51
+        },
+        "person-athlete": {
+            "id": 52
+        },
+        "person-director": {
+            "id": 53
+        },
+        "person-other": {
+            "id": 54
+        },
+        "person-politician": {
+            "id": 55
+        },
+        "person-scholar": {
+            "id": 56
+        },
+        "person-soldier": {
+            "id": 57
+        },
+        "product-airplane": {
+            "id": 58
+        },
+        "product-car": {
+            "id": 59
+        },
+        "product-food": {
+            "id": 60
+        },
+        "product-game": {
+            "id": 61
+        },
+        "product-other": {
+            "id": 62
+        },
+        "product-ship": {
+            "id": 63
+        },
+        "product-software": {
+            "id": 64
+        },
+        "product-train": {
+            "id": 65
+        },
+        "product-weapon": {
+            "id": 66
+        }
+    }
+}
