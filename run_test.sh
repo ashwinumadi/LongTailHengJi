@@ -1,13 +1,14 @@
 #!/bin/bash
 
 #SBATCH --nodes=1
-#SBATCH --ntasks=1
-#SBATCH --time=00:10:00
+#SBATCH --ntasks=64
+#SBATCH --time=7-00:00:00
 #SBATCH --partition=aa100
 #SBATCH --gres=gpu:1
 #SBATCH --output=run_test-%j.out
 #SBATCH --mail-type="ALL"
 #SBATCH --mail-user="asum8093@colorado.edu"
+#SBATCH --qos=long
 
 module purge
 
