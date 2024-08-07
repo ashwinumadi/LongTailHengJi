@@ -16,6 +16,8 @@ module load anaconda
 module load cuda/12.1.1
 cd /scratch/alpine/asum8093/LongTailHengJi
 conda activate py38-pt1131-cuda117
+pip install -r requirements.txt
+
 
 echo "== This is the scripting step! =="
 
