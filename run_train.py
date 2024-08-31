@@ -47,7 +47,8 @@ def main():
     gpu = opts.gpu
     gpu_ids = [int(t.strip()) for t in opts.gpu.strip().split(",")]
     world_size = len(gpu_ids)
- 
+    print("********")
+    print("RANK : ", world_size)
     if len(gpu_ids) > 1:
         mp.spawn(worker_fn,
                 args=(world_size, opts, SeqCls, net_kwargs),

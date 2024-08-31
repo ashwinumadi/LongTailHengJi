@@ -118,12 +118,15 @@ class Worker(object):
 
 
     def initialize(self, rank:int=0, test_only:bool=False, seed:int=42):
-
+        rank = 0
         torch.manual_seed(seed)
         print(self.gpu_ids, rank)
         print(self.net_module, self.net_args)
-        
-        model = self.net_module(*self.net_args["args"], **self.net_args["kwargs"]).to(torch.device(f"cuda:{self.gpu_ids[0]}"))
+        print(torch.cuda.is_available())  # Should return True if a GPU is available
+        print(torch.cuda.device_count())  # Returns the number of available CUDA devices
+        print(torch.cuda.get_device_name(0)) 
+        f = 0
+        model = self.net_module(*self.net_args["args"], **self.net_args["kwargs"]).to(torch.device("cuda"))#to(torch.device(f"cuda:{self.gpu_ids[0]}"))
         #print(self.distributed)
         #print('##')
         if self.distributed:
