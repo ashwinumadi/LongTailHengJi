@@ -14,6 +14,10 @@ import torch.multiprocessing as mp
 
 
 def main():
+    print('MAIN CODE')
+    print(torch.cuda.is_available())  # Should return True if a GPU is available
+    print(torch.cuda.device_count())  # Returns the number of available CUDA devices
+    print(torch.cuda.get_device_name(0)) 
     transformers.logging.set_verbosity(transformers.logging.ERROR)
     opts = parse_arguments(no_clean_dir=True)
     SEEDS = [int(t) for t in opts.seed.split(",")]
