@@ -119,6 +119,7 @@ class Worker(object):
 
     def initialize(self, rank:int=0, test_only:bool=False, seed:int=42):
         rank = 0
+        print('INSIDE WORKER NODE : ')
         torch.manual_seed(seed)
         print(self.gpu_ids, rank)
         print(self.net_module, self.net_args)
