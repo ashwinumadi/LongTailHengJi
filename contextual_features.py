@@ -53,12 +53,15 @@ import os
 # Create the directory if it doesn't exist
 os.makedirs('contextual_features/', exist_ok=True)
 
+33275
+
 for i, example in enumerate(training_dataset):
-    sentence = example['tokens']
-    sentence = ' '.join(sentence)  # Convert list of tokens to a single string
+    if i>33275:
+        sentence = example['tokens']
+        sentence = ' '.join(sentence)  # Convert list of tokens to a single string
 
-    # Get the contextual features for the sentence
-    features = get_contextual_features(sentence, model, tokenizer)
+        # Get the contextual features for the sentence
+        features = get_contextual_features(sentence, model, tokenizer)
 
-    # Save the tensor to a file
-    torch.save(features, f'contextual_features/{i}')
+        # Save the tensor to a file
+        torch.save(features, f'contextual_features/{i}')
