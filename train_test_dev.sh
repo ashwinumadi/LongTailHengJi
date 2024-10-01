@@ -3,7 +3,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=64
 #SBATCH --time=24:00:00
-#SBATCH --partition=amilan
+#SBATCH --partition=aa100
 #SBATCH --output=train_test_dev-%j.out
 #SBATCH --mail-type="ALL"
 #SBATCH --mail-user="asum8093@colorado.edu"
