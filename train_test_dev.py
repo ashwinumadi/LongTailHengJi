@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 
 
-#folder_path = Path('data/fewnerd')
+folder_path = Path('data/fewnerd')
 
 #folder_path.mkdir(parents=True, exist_ok=True)
 #print(f"Folder created at: {folder_path}")
